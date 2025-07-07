@@ -1,0 +1,180 @@
+/* Start of Customized Login Page CSS */
+
+.hl_login {
+    background-color: rgba(10, 10, 10, 0.9) !important;
+    background-blend-mode: hue !important;
+    background-image: url("https://storage.googleapis.com/msgsndr/F7UgFDXmYhmt4WMeMjzs/media/67d4d68afefe1b73dfb08deb.jpeg") !important;
+    background-position: center bottom !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100vh;
+}
+
+.hl_login--header {
+    display: none !important;
+}
+
+div.hl_login--body {
+    max-width: 450px !important;
+    width: 100% !important;
+    background: url("https://storage.googleapis.com/msgsndr/F7UgFDXmYhmt4WMeMjzs/media/67d4d9c09672ece4793775ab.jpeg") !important;
+    background-position: top right !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 2rem !important;
+     backdrop-filter: blur(20px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.08);
+      animation: zoomInAnimation 0.6s ease-in-out;
+}
+@keyframes zoomInAnimation {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.hl_login--body .card {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.hl_login--body .card .card-body {
+    padding: 50px 20px;
+    background-color: transparent;
+}
+
+.hl_login .hl_login--body .form-control {
+    background: #FFFFFF !important;
+    font-size: 0.875rem;
+    color: #3B2E2B;
+    border: 1px solid #BFBFBF !important;
+    border-radius: 0.25rem !important;
+    padding: 1rem !important;
+}
+
+.hl_login--body .login-card-heading {
+    margin-bottom: 1.5rem !important;
+    text-align: center;
+}
+
+.hl_login--body .heading2::before {
+    content: "" !important;
+    background: url(https://storage.googleapis.com/msgsndr/F7UgFDXmYhmt4WMeMjzs/media/67cfd7623d10884072dbff94.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 2rem !important;
+    width: auto !important;
+    margin-bottom: 1rem !important;
+    display: block !important;
+}
+
+.hl_login--body .heading2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 21px;
+}
+
+.hl_login .button-holder.form-group {
+    margin: 10px auto !important;
+}
+
+.hl_login .btn.btn-blue,
+.hl_login .btn.btn-blue:active,
+.hl_login .btn.btn-blue:focus {
+    background-color: #F9441F;
+    border-color: #F9441F;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hl_login .btn.btn-blue:hover {
+    background-color: #F9441F;
+    border-color: #F9441F;
+    color: #fff;
+}
+
+.hl_login button {
+    background-image: linear-gradient(-45deg, #F9311F, #F9441F, #FA5838) !important;
+    width: 100% !important;
+    align-items: center !important;
+    border-radius: 0.5rem !important;
+    cursor: pointer !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+    transition: all 0.25s !important;
+    line-height: 1 !important;
+    font-weight: 900 !important;
+    min-height: 3.5rem !important;
+
+}
+
+.hl_login .hover\:bg-curious-blue-600:hover,
+.hl_login button:hover {
+    background-image: linear-gradient(-45deg, #F9311F, #F9441F, #FA5838) !important;
+    width: 100% !important;
+    align-items: center !important;
+    border-radius: 0.5rem !important;
+    cursor: pointer !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+    transition: all 0.25s !important;
+    transform: scale(1.025) !important;
+    line-height: 1 !important;
+    text-shadow: 0 0.125rem 0.25rem rgba(10, 10, 10, 0.2) !important;
+}
+
+.hl_login--body .card-body .login-card-heading h2, .hl_login--body .card-body .flex span {
+    color: #FFFFFF;
+}
+
+#forgot_passowrd_btn, .card-body .foot-note .font-semibold, .hl_login--body .card-body .font-semibold.cursor-pointer.text-curious-blue-500 {
+    color: #F9441F;
+}
+
+.hl_login--body input[type="radio"] {
+    color: #F9441F;
+}
+.hl_login--body input.hl-text-input {
+    background: rgba(0, 0, 0, 0.36) !important;
+    color: white !important;
+    border: 0.5px solid rgba(255, 255, 255, 0.32) !important;
+    border-radius: 7px !important;
+}
+
+
+.hl_login--body .card-body div .focus\:outline-none {
+    background-image: #F9441F;
+    border-style: none;
+    border-radius: 0.5rem !important;
+    color: #050505;
+    font-size: 1rem;
+}
+
+.hl_login--body .card .card-body p {
+    color: #F9F9F9;
+}
+
+.hl_login button {
+  border: none !important;
+}
+
+/* End of Customized Login Page CSS */
